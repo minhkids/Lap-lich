@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\Lập lịch\bin\Debug\Lập lịch.exe.config
+C:\Users\Admin\source\repos\Lập lịch\bin\Debug\Lập lịch.exe
+C:\Users\Admin\source\repos\Lập lịch\bin\Debug\Lập lịch.pdb
+C:\Users\Admin\source\repos\Lập lịch\obj\Debug\Lập lịch.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Lập lịch\obj\Debug\Lập_lịch.Adayjob.resources
+C:\Users\Admin\source\repos\Lập lịch\obj\Debug\Lập_lịch.Dailyplan.resources
+C:\Users\Admin\source\repos\Lập lịch\obj\Debug\Lập_lịch.Form1.resources
+C:\Users\Admin\source\repos\Lập lịch\obj\Debug\Lập_lịch.Properties.Resources.resources
+C:\Users\Admin\source\repos\Lập lịch\obj\Debug\Lập lịch.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Lập lịch\obj\Debug\Lập lịch.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Lập lịch\obj\Debug\Lập lịch.exe
+C:\Users\Admin\source\repos\Lập lịch\obj\Debug\Lập lịch.pdb
