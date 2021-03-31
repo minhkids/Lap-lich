@@ -123,13 +123,15 @@
             this.btnToday.TabIndex = 1;
             this.btnToday.Text = "Hôm nay";
             this.btnToday.UseVisualStyleBackColor = true;
+            this.btnToday.Click += new System.EventHandler(this.btnToday_Click);
             // 
             // dptkDate
             // 
-            this.dptkDate.Location = new System.Drawing.Point(339, 12);
+            this.dptkDate.Location = new System.Drawing.Point(302, 12);
             this.dptkDate.Name = "dptkDate";
-            this.dptkDate.Size = new System.Drawing.Size(254, 22);
+            this.dptkDate.Size = new System.Drawing.Size(291, 22);
             this.dptkDate.TabIndex = 0;
+            this.dptkDate.ValueChanged += new System.EventHandler(this.dptkDate_ValueChanged);
             // 
             // panel2
             // 
@@ -173,6 +175,7 @@
             this.btnnext.TabIndex = 8;
             this.btnnext.Text = ">";
             this.btnnext.UseVisualStyleBackColor = true;
+            this.btnnext.Click += new System.EventHandler(this.btnnext_Click);
             // 
             // btnpre
             // 
@@ -182,6 +185,7 @@
             this.btnpre.TabIndex = 7;
             this.btnpre.Text = "<";
             this.btnpre.UseVisualStyleBackColor = true;
+            this.btnpre.Click += new System.EventHandler(this.btnpre_Click);
             // 
             // btnSunday
             // 

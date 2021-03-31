@@ -65,7 +65,7 @@ namespace Lập_lịch
                     Location = new Point(0, oldbtn.Location.Y + Ins.DateButtonH)
                 };
             }
-            AddNumberMatrix(dptkDate.Value);
+            SetDefaultDate();
         }
         int Dateofmonth(DateTime date)
         {
@@ -90,25 +90,72 @@ namespace Lập_lịch
         }
         void AddNumberMatrix(DateTime date)
         {
-            
+            clearMatrix();
             DateTime useDate = new DateTime(date.Year, date.Month, 1);
-            
+           
+
             int line = 0;
             for ( int i = 1; i <= Dateofmonth(date); i++)
             {
                 int column = DateOfWeek.IndexOf(useDate.DayOfWeek.ToString());
-                //Console.WriteLine("Day la column"+ column);
-                //Console.WriteLine("Day la line "+ line);
-                //Console.WriteLine("use date to string " + useDate.DayOfWeek.ToString());
-               // Console.WriteLine("usedate" + useDate);
+              
                 Button btn = Matrix[line][column];
                 btn.Text = i.ToString();
+                if (Equaldate(useDate, DateTime.Now))
+                {
+                    btn.BackColor = Color.YellowGreen;
+                }
+                if (Equaldate(useDate, date))
+                {
+                    btn.BackColor = Color.Yellow;
+                }
                 if (column >= 6)
                 {
                     line++;
                 }
                 useDate = useDate.AddDays(1);
             }
+        }
+        bool Equaldate(DateTime DateA, DateTime DateB)
+        {
+            return DateA.Year == DateB.Year && DateA.Month == DateB.Month && DateA.Day == DateB.Day;
+        }
+        private void dptkDate_ValueChanged(object sender, EventArgs e)
+        {
+            AddNumberMatrix((sender as DateTimePicker).Value);
+        }
+        void SetDefaultDate()
+        {
+            dptkDate.Value = DateTime.Now;
+        }
+        void clearMatrix()
+        {
+            for (int i = 0; i < Matrix.Count;i++)
+            {
+                for (int j = 0; j < Matrix[i].Count; j++)
+                {
+
+                    Button btn = Matrix[i][j];
+                    btn.Text = "";
+                    btn.BackColor = Color.White;
+                }    
+
+            }    
+        }
+
+        private void btnpre_Click(object sender, EventArgs e)
+        {
+            dptkDate.Value = dptkDate.Value.AddMonths(-1);
+        }
+
+        private void btnnext_Click(object sender, EventArgs e)
+        {
+            dptkDate.Value = dptkDate.Value.AddMonths(1);
+        }
+
+        private void btnToday_Click(object sender, EventArgs e)
+        {
+            SetDefaultDate();
         }
     }
 }
