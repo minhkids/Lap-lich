@@ -250,7 +250,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(972, 628);
+            this.ClientSize = new System.Drawing.Size(966, 628);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Calender";
