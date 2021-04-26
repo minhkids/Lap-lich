@@ -69,6 +69,8 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Ins.cs" />
+    <Compile Include="PlanData.cs" />
+    <Compile Include="planitem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Adayjob.resx">

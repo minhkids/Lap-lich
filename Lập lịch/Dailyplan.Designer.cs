@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnNextday = new System.Windows.Forms.Button();
+            this.btnpreviosday = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.thêmviệc = new System.Windows.Forms.ToolStripMenuItem();
             this.homnay = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnpreviosday = new System.Windows.Forms.Button();
-            this.btnNextday = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -51,20 +51,6 @@
             this.panel1.Size = new System.Drawing.Size(1101, 620);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
-            // 
-            this.panel2.Location = new System.Drawing.Point(3, 46);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1095, 572);
-            this.panel2.TabIndex = 0;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(410, 4);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(253, 22);
-            this.dateTimePicker1.TabIndex = 1;
-            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.btnNextday);
@@ -75,6 +61,41 @@
             this.panel3.Size = new System.Drawing.Size(1101, 37);
             this.panel3.TabIndex = 1;
             // 
+            // btnNextday
+            // 
+            this.btnNextday.Location = new System.Drawing.Point(862, 2);
+            this.btnNextday.Name = "btnNextday";
+            this.btnNextday.Size = new System.Drawing.Size(104, 31);
+            this.btnNextday.TabIndex = 3;
+            this.btnNextday.Text = "Ngày mai";
+            this.btnNextday.UseVisualStyleBackColor = true;
+            this.btnNextday.Click += new System.EventHandler(this.btnNextday_Click);
+            // 
+            // btnpreviosday
+            // 
+            this.btnpreviosday.Location = new System.Drawing.Point(141, 2);
+            this.btnpreviosday.Name = "btnpreviosday";
+            this.btnpreviosday.Size = new System.Drawing.Size(98, 31);
+            this.btnpreviosday.TabIndex = 2;
+            this.btnpreviosday.Text = "Hôm qua";
+            this.btnpreviosday.UseVisualStyleBackColor = true;
+            this.btnpreviosday.Click += new System.EventHandler(this.btnpreviosday_Click);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(410, 4);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(253, 22);
+            this.dateTimePicker1.TabIndex = 1;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(3, 46);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1095, 572);
+            this.panel2.TabIndex = 0;
+            // 
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -83,7 +104,7 @@
             this.homnay});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1125, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1136, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -100,34 +121,18 @@
             this.homnay.Size = new System.Drawing.Size(83, 24);
             this.homnay.Text = "Hôm nay";
             // 
-            // btnpreviosday
-            // 
-            this.btnpreviosday.Location = new System.Drawing.Point(141, 2);
-            this.btnpreviosday.Name = "btnpreviosday";
-            this.btnpreviosday.Size = new System.Drawing.Size(98, 31);
-            this.btnpreviosday.TabIndex = 2;
-            this.btnpreviosday.Text = "Hôm qua";
-            this.btnpreviosday.UseVisualStyleBackColor = true;
-            // 
-            // btnNextday
-            // 
-            this.btnNextday.Location = new System.Drawing.Point(862, 2);
-            this.btnNextday.Name = "btnNextday";
-            this.btnNextday.Size = new System.Drawing.Size(104, 31);
-            this.btnNextday.TabIndex = 3;
-            this.btnNextday.Text = "Ngày mai";
-            this.btnNextday.UseVisualStyleBackColor = true;
-            // 
             // Dailyplan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1125, 668);
+            this.ClientSize = new System.Drawing.Size(1136, 668);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Dailyplan";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lịch trong ngày";
+            this.Load += new System.EventHandler(this.Dailyplan_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
