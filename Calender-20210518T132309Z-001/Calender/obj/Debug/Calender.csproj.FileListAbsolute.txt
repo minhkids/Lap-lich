@@ -1,0 +1,24 @@
+C:\Users\Admin\source\repos\Calender\obj\Debug\Calender.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Calender\obj\Debug\Calender.Form1.resources
+C:\Users\Admin\source\repos\Calender\obj\Debug\Calender.Properties.Resources.resources
+C:\Users\Admin\source\repos\Calender\obj\Debug\Calender.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Calender\obj\Debug\Calender.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Calender\bin\Debug\Calender.exe.config
+C:\Users\Admin\source\repos\Calender\bin\Debug\Calender.exe
+C:\Users\Admin\source\repos\Calender\bin\Debug\Calender.pdb
+C:\Users\Admin\source\repos\Calender\obj\Debug\Calender.DailyPlan.resources
+C:\Users\Admin\source\repos\Calender\obj\Debug\Calender.exe
+C:\Users\Admin\source\repos\Calender\obj\Debug\Calender.pdb
+C:\Users\Admin\source\repos\Calender\obj\Debug\Calender.AJob.resources
+C:\Users\Admin\Desktop\Goc hoc tap\Lap-lich\Calender\bin\Debug\Calender.exe.config
+C:\Users\Admin\Desktop\Goc hoc tap\Lap-lich\Calender\bin\Debug\Calender.exe
+C:\Users\Admin\Desktop\Goc hoc tap\Lap-lich\Calender\bin\Debug\Calender.pdb
+C:\Users\Admin\Desktop\Goc hoc tap\Lap-lich\Calender\obj\Debug\Calender.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Goc hoc tap\Lap-lich\Calender\obj\Debug\Calender.AJob.resources
+C:\Users\Admin\Desktop\Goc hoc tap\Lap-lich\Calender\obj\Debug\Calender.DailyPlan.resources
+C:\Users\Admin\Desktop\Goc hoc tap\Lap-lich\Calender\obj\Debug\Calender.Form1.resources
+C:\Users\Admin\Desktop\Goc hoc tap\Lap-lich\Calender\obj\Debug\Calender.Properties.Resources.resources
+C:\Users\Admin\Desktop\Goc hoc tap\Lap-lich\Calender\obj\Debug\Calender.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Goc hoc tap\Lap-lich\Calender\obj\Debug\Calender.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Goc hoc tap\Lap-lich\Calender\obj\Debug\Calender.exe
+C:\Users\Admin\Desktop\Goc hoc tap\Lap-lich\Calender\obj\Debug\Calender.pdb
