@@ -188,6 +188,7 @@ namespace Calender
         {
             AddNumberIntoMatrixByDate((sender as DateTimePicker).Value);
         }
+
         private void btnNext_Click(object sender, EventArgs e)
         {
             dtpkDate.Value = dtpkDate.Value.AddMonths(1);
@@ -266,6 +267,11 @@ namespace Calender
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMonday_Click(object sender, EventArgs e)
         {
 
         }

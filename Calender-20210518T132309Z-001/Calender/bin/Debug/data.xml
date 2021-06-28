@@ -2,54 +2,41 @@
 <PlanData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Job>
     <PlanItem>
-      <Date>2021-05-18T15:31:24.5599547+07:00</Date>
-      <Job>Complete</Job>
+      <Date>2021-06-27T15:20:41.3765567+07:00</Date>
+      <Job>khong thu nua</Job>
       <FromTime>
-        <X>1</X>
+        <X>8</X>
         <Y>0</Y>
       </FromTime>
       <ToTime>
+        <X>5</X>
+        <Y>0</Y>
+      </ToTime>
+      <Status>DONE</Status>
+    </PlanItem>
+  </Job>
+</PlanData> <Date>2021-06-28T00:00:00</Date>
+      <Job>Doing</Job>
+      <FromTime>
         <X>3</X>
-        <Y>0</Y>
-      </ToTime>
-      <Status>DONE</Status>
-    </PlanItem>
-    <PlanItem>
-      <Date>2021-05-18T00:00:00</Date>
-      <Job>Chắc chưa</Job>
-      <FromTime>
-        <X>1</X>
-        <Y>0</Y>
-      </FromTime>
-      <ToTime>
-        <X>2</X>
-        <Y>0</Y>
-      </ToTime>
-      <Status>DONE</Status>
-    </PlanItem>
-    <PlanItem>
-      <Date>2021-05-19T00:00:00</Date>
-      <Job>Chuẩn bị play</Job>
-      <FromTime>
-        <X>12</X>
-        <Y>30</Y>
+        <Y>33</Y>
       </FromTime>
       <ToTime>
         <X>13</X>
-        <Y>30</Y>
+        <Y>15</Y>
       </ToTime>
-      <Status>COMING</Status>
+      <Status>DOING</Status>
     </PlanItem>
     <PlanItem>
-      <Date>2021-05-18T00:00:00</Date>
-      <Job>Thông báo đi pls</Job>
+      <Date>2021-06-28T00:00:00</Date>
+      <Job>Done</Job>
       <FromTime>
-        <X>20</X>
-        <Y>14</Y>
+        <X>15</X>
+        <Y>20</Y>
       </FromTime>
       <ToTime>
         <X>20</X>
-        <Y>16</Y>
+        <Y>15</Y>
       </ToTime>
       <Status>COMING</Status>
     </PlanItem>

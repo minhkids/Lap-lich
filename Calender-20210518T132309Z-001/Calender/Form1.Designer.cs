@@ -206,6 +206,7 @@
             // 
             // btnSunday
             // 
+            this.btnSunday.Enabled = false;
             this.btnSunday.Location = new System.Drawing.Point(761, 4);
             this.btnSunday.Margin = new System.Windows.Forms.Padding(4);
             this.btnSunday.Name = "btnSunday";
@@ -216,6 +217,7 @@
             // 
             // btnSaturday
             // 
+            this.btnSaturday.Enabled = false;
             this.btnSaturday.Location = new System.Drawing.Point(653, 4);
             this.btnSaturday.Margin = new System.Windows.Forms.Padding(4);
             this.btnSaturday.Name = "btnSaturday";
@@ -226,6 +228,7 @@
             // 
             // btnFriday
             // 
+            this.btnFriday.Enabled = false;
             this.btnFriday.Location = new System.Drawing.Point(545, 4);
             this.btnFriday.Margin = new System.Windows.Forms.Padding(4);
             this.btnFriday.Name = "btnFriday";
@@ -236,6 +239,7 @@
             // 
             // btnThusday
             // 
+            this.btnThusday.Enabled = false;
             this.btnThusday.Location = new System.Drawing.Point(437, 4);
             this.btnThusday.Margin = new System.Windows.Forms.Padding(4);
             this.btnThusday.Name = "btnThusday";
@@ -246,6 +250,7 @@
             // 
             // btnWednesday
             // 
+            this.btnWednesday.Enabled = false;
             this.btnWednesday.Location = new System.Drawing.Point(329, 4);
             this.btnWednesday.Margin = new System.Windows.Forms.Padding(4);
             this.btnWednesday.Name = "btnWednesday";
@@ -256,6 +261,7 @@
             // 
             // btnTuesday
             // 
+            this.btnTuesday.Enabled = false;
             this.btnTuesday.Location = new System.Drawing.Point(221, 4);
             this.btnTuesday.Margin = new System.Windows.Forms.Padding(4);
             this.btnTuesday.Name = "btnTuesday";
@@ -266,6 +272,7 @@
             // 
             // btnMonday
             // 
+            this.btnMonday.Enabled = false;
             this.btnMonday.Location = new System.Drawing.Point(113, 4);
             this.btnMonday.Margin = new System.Windows.Forms.Padding(4);
             this.btnMonday.Name = "btnMonday";
@@ -273,6 +280,7 @@
             this.btnMonday.TabIndex = 0;
             this.btnMonday.Text = "Thứ 2";
             this.btnMonday.UseVisualStyleBackColor = true;
+            this.btnMonday.Click += new System.EventHandler(this.btnMonday_Click);
             // 
             // tmNotify
             // 
@@ -290,7 +298,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1020, 455);
+            this.ClientSize = new System.Drawing.Size(1020, 459);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
